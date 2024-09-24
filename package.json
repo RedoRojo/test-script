@@ -8,6 +8,7 @@
     "build": "parcel build index.html",
     "test": "jest --watch",
     "test-once": "jest --verbose --coverage",
+    "test-export-json": "jest --json --outputFile=report.json",
     "cypress": "cypress open",
     "cypress-run": "cypress run"
   },
